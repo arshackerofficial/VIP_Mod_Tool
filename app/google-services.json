@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "546163495278",
+    "firebase_url": "https://myiranfriend-default-rtdb.firebaseio.com",
+    "project_id": "myiranfriend",
+    "storage_bucket": "myiranfriend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546163495278:android:b8bca09ed34c3d4f54717f",
+        "android_client_info": {
+          "package_name": "com.arshackerofficial.vipmodtool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546163495278-lnrf4mhouteevn825pbbtec5u0n791fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqmN64ScqfjMZRZ-j11Sk-uSl4y-tJgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546163495278-lnrf4mhouteevn825pbbtec5u0n791fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546163495278:android:176551afcee4804654717f",
+        "android_client_info": {
+          "package_name": "com.copypaster.fuckyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546163495278-lnrf4mhouteevn825pbbtec5u0n791fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqmN64ScqfjMZRZ-j11Sk-uSl4y-tJgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546163495278-lnrf4mhouteevn825pbbtec5u0n791fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

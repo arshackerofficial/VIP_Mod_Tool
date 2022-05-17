@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".ModActivity"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:text="Mod Tool"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/gl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Global" />
+
+            <RadioButton
+                android:id="@+id/kr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Korea" />
+
+            <RadioButton
+                android:id="@+id/vng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Vietnam" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Taiwan" />
+
+            <RadioButton
+                android:id="@+id/lite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Lite" />
+
+            <RadioButton
+                android:id="@+id/bgmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="BGMI"  />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mod1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Mod 1" />
+
+            <Button
+                android:id="@+id/mod2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Mod 2" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mod3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_margin="10dp"
+            android:text="Mod 3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/modPak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Paks" />
+
+            <Button
+                android:id="@+id/modData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Mod Data" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Version: " />
+
+            <TextView
+                android:id="@+id/modname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Mod:" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/safe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:text="Safe: 100%" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:text="Start" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/ico"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:src="@drawable/logotp" />
+
+        <TextView
+            android:id="@+id/tgid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:text="@mod_datapubg" />
+    </LinearLayout>
+
+</LinearLayout>
